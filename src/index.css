@@ -1,0 +1,100 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  list-style: none;
+  font-size: 110px;
+  background-color: #3896e0;
+}
+
+nav a{
+  font-weight: bolder;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  font-family: "Jersey 10", serif;
+  
+}
+
+.active{
+  -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-color: black;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+main{
+  width: 100%;
+  height: calc(100vh - 290px);
+  position: relative;
+}
+
+.home{
+  background-image: url("/public/winchester-walk.jpg");
+}
+
+.about{
+  background-image: url("/public/about.jpg");
+}
+
+.abt{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.contacts{
+  background-image: url("/public/contacts.jpg");
+  background-size: contain;
+}
+
+.home-urls{
+  position: relative;
+}
+
+.home-link{
+  position: absolute;
+  background-color: white;
+  padding: 15px;
+  font-size: 70px;
+  border-radius: 50px;
+}
+
+.home-link a{
+  color: black;
+}
+
+.home-link:nth-child(1){
+  left: calc(50% + 150px);
+  top: 600px;
+}
+
+.home-link:nth-child(2){
+  left: 200px;
+  top: 600px;
+}
+
+.container h1{
+  font-size: 90px;
+  font-family: sans-serif;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  text-align: center; 
+  padding-top: 100px;
+}
