@@ -38,7 +38,6 @@ a{
 main{
   width: 100%;
   height: calc(100vh - 290px);
-  position: relative;
 }
 
 .home{
@@ -55,8 +54,12 @@ main{
   justify-content: center;
   align-items: center;
   height: 100%;
-  flex-direction: column;
+  flex-direction: column;  
+  font-size: 80px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
+
 
 .contacts{
   background-image: url("/public/contacts.jpg");
