@@ -66,6 +66,23 @@ main{
   background-size: contain;
 }
 
+.pgp{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-family: "Bebas Neue";
+}
+
+.pgpcont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
 .home-urls{
   position: relative;
 }

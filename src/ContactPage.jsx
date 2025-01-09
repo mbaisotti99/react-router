@@ -5,7 +5,7 @@ function ContactPage() {
         <>
             <MainNav />
             <main className="contacts">
-                <div className="container">
+                <div className="container pgpcont">
                     <p className="pgp">
                     -----BEGIN PGP PUBLIC KEY BLOCK-----
 mDMEZ3BUxxYJKwYBBAHaRw8BAQdA4jK7DLf56J2fwU5Dfa5BSejloabnfqC0Um5U
