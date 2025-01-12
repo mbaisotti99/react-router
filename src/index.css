@@ -51,7 +51,8 @@ main{
 }
 
 .home{
-  background-image: url("/public/winchester-walk.jpg");
+  background-color: #63d620;
+  height: 100%;
 }
 
 .about{
@@ -127,4 +128,24 @@ main{
   -webkit-text-stroke-color: black;
   text-align: center; 
   padding-top: 100px;
+}
+
+.tags{
+  display: flex;
+}
+
+.singleTag{
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.bg{
+  background-image: url("../public/forno.jpg");
+  height: 100vh;
+}
+
+.bg .container{
+  height: 100% !important;
 }

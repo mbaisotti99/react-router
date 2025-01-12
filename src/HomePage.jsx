@@ -29,7 +29,7 @@ function HomePage() {
 
                         return (
                             <div className="card text-center">
-                                <img src={`http://localhost:3000/${curPizza.immagini}`} className="card-img-top w-50 m-auto" alt="..." />
+                                <img src={`http://localhost:3000/${curPizza.immagini}`} className="card-img-top my-5 w-50 m-auto" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{curPizza.titolo}</h5>
                                     <p className="card-text">{curPizza.descrizione}</p>
